@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="x">
+     <form action="#">
+ <h2 class="h4 text-black mb-5">Student Form</h2>
+   <div class="row">
+     <div class="col-md-6  mb-3">
+       <label for="validationServer01">First name</label>
+       <input type="text" class="form-control rounded-1" id="validationServer01">
+       <div id="First_name_error"></div>
+     </div>
+     <div class="col-md-6  mb-3">
+       <label for="validationServer02">Last name</label>
+       <input type="text" class="form-control rounded-1" id="validationServer02" >
+       <div id="Last_name_error"></div>
+     </div>
+   </div>
+   <div class="row">
+    <label for="example-date-input">Date</label>
+    <div class="col-md-12 mb-3">
+      <input class="form-control" type="date" placeholder="21/09/2001" id="example-date-input">
+    </div>
+    <div id="inputData_error"></div>
+</div>
+  <div class="row">
+    <div class="col-md-12 mb-3">
+      <label for="inputGAP3">GAP</label>
+      <input type="text" class="form-control rounded-1" id="inputGAP3" placeholder="3.41">
+      <div id="inputGAP3_error"></div>
+    </div>
+ </div>
+ <div class="row">
+   <div class="col-md-12 mb-3">
+     <label for="inputID3">ID</label>
+     <input type="text" class="form-control rounded-1" id="inputID3" placeholder="11926221">
+     <div id="inputID3_error"></div>
+   </div>
+</div>
+</form>
+<div class="row">
+<div class="col-md-6 mb-3">
+<button class="btn btn-primary rounded-pill"  (click)="Addstudent()">Add Student</button>
+</div>
+</div>
+</div>

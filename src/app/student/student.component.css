@@ -1,0 +1,36 @@
+@media only screen and (max-width:960px) {
+    .x{
+  
+      border: white;
+       background-color: white;
+       
+          width: 70%;
+         margin-top:5% ;
+    
+    }
+  }
+  .x{
+  
+    border: white;
+     background-color: white;
+        margin: auto;
+        width: 60%;
+       margin-top:5% ;
+  
+  }
+  .form-row{
+     margin-left : 4%;
+     margin-top: 1%;
+      width: 90%;
+  }
+  h1{
+    padding-top:5% ;
+     color: white;
+   }
+   h2{
+       
+    padding-top:3% ;
+     margin-left : 3%;
+  
+   }
+  
